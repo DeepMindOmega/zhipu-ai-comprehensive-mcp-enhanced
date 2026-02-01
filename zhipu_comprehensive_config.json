@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": false
+  },
+  "zhipu": {
+    "api_key": "YOUR_ZHIPU_API_KEY_HERE",
+    "default_model": "glm-4",
+    "timeout": 30
+  },
+  "mcp": {
+    "name": "zhipu-comprehensive-mcp",
+    "version": "1.0.0",
+    "description": "智谱AI综合性MCP服务器，提供多种AI能力"
+  },
+  "features": {
+    "web_search": true,
+    "web_reader": true,
+    "repo_analyzer": true,
+    "vision_analyzer": true,
+    "text_generation": true
+  }
+}

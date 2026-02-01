@@ -1,0 +1,17 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": false
+  },
+  "zhipu": {
+    "api_key": "YOUR_ZHIPU_API_KEY_HERE",
+    "default_model": "glm-vision",
+    "timeout": 30
+  },
+  "mcp": {
+    "name": "zhipu-vision-mcp",
+    "version": "1.0.0",
+    "description": "智谱AI视觉模型MCP服务器"
+  }
+}

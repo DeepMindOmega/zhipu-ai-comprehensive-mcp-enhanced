@@ -1,0 +1,37 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": false,
+    "log_body": false,
+    "cache_dir": "cache",
+    "rate_limits": {
+      "per_minute": 60,
+      "per_hour": 1000
+    }
+  },
+  "zhipu": {
+    "api_key": "输入你的智谱api insert your api here",
+    "default_model": "glm-4",
+    "timeout": 30
+  },
+  "mcp": {
+    "name": "zhipu-comprehensive-mcp",
+    "version": "1.0.0",
+    "description": "智谱AI综合性MCP服务器，提供多种AI能力"
+  },
+  "features": {
+    "web_search": true,
+    "web_reader": true,
+    "repo_analyzer": true,
+    "vision_analyzer": true,
+    "text_generator": true
+  },
+  "auth": {
+    "require_auth": false,
+    "api_keys": []
+  },
+  "cors": {
+    "allowed_origins": ["*"]
+  }
+}
